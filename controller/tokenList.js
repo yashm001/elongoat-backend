@@ -6,8 +6,8 @@ const { async } = require("crypto-random-string");
 
 
 toChainId = {
-    BSC : "97",
-    ETH : "3",
+    BSC : "56",
+    ETH : "1",
 }
 
 tokenList = {
@@ -17,8 +17,8 @@ tokenList = {
         symbol: "EGT",
         decimal: 9,
         tokenAddress: {
-            BSC: "0x682D26987599E6e355CD930201E3bBbf65DBF650",
-            ETH: "0x73298736b1c0cF1CFFf1B30016aA351A40E9CFB5"
+            BSC: "0x2cA25319E2E63719F87221D8bF3646F8F5dE5DED",
+            ETH: "0x1e64004083230CaC6Fd6e8E337ff44C85fd0e7b6"
 
         },
         tokenAbi: {
@@ -27,8 +27,8 @@ tokenList = {
 
         },
         bridgeAddress: {
-            BSC: "0xd5e9107F9eF4285395404D535e5773E7136a82b4",
-            ETH: "0xd430e189E3a5246927Ba786dF4e7E34f36f8BA70"
+            BSC: "0x8E2ac8868B35fCd73B1263f783bbb17D1270137b",
+            ETH: "0x8E2ac8868B35fCd73B1263f783bbb17D1270137b"
         },
         bridgeAbi: {
             BSC: require('./ABI/bridgeBSCAbi.json'),
